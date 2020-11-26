@@ -1,6 +1,375 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Capacitors_Smd0603_100nF_0603
+#
+DEF Capacitors_Smd0603_100nF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Capacitors_Smd0603_100nF_0603" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "SAMSUNG" 0 0 50 H I C CNN "Manufacturer"
+F5 "CL10B104JB8NNNC" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "CL10B104JB8NNNC" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" 0 0 50 H I C CNN "URL"
+F9 "0,04540" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,02231" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 100nF_0603
+$ENDFPLIST
+DRAW
+P 3 0 1 12 100 -25 -100 -25 -100 -25 N
+P 3 0 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd0603_220pF_0603
+#
+DEF Capacitors_Smd0603_220pF_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 50 V V C CNN
+F1 "Capacitors_Smd0603_220pF_0603" -150 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "AVX" 0 0 50 H I C CNN "Manufacturer"
+F5 "06035A221JAT2A " 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "581-06035A221J " 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/AVX/06035A221JAT2A?qs=sGAEpiMZZMs0AnBnWHyRQE2IRmxFPR1eltIuQ0lzIwI%3D" 0 0 50 H I C CNN "URL"
+F9 "0,168" 0 0 50 H I C CNN "Price@100pcs"
+F10 "0,10" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "IW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C431002" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 220pF_0603
+$ENDFPLIST
+DRAW
+P 3 1 1 12 100 -25 -100 -25 -100 -25 N
+P 3 1 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd0603_2_2uF_0603
+#
+DEF Capacitors_Smd0603_2_2uF_0603 C 0 40 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "Capacitors_Smd0603_2_2uF_0603" -150 0 50 V V C CNN
+F2 "" 150 -350 50 H I C CNN
+F3 "" 150 -350 50 H I C CNN
+F4 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 2_2uF_0603
+$ENDFPLIST
+DRAW
+P 3 1 1 12 100 -25 -100 -25 -100 -25 N
+P 3 1 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd0603_2n2F_0603
+#
+DEF Capacitors_Smd0603_2n2F_0603 C 0 0 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "Capacitors_Smd0603_2n2F_0603" 250 -100 50 H V C CNN
+F2 "" 400 -350 50 H I C CNN
+F3 "" 400 -350 50 H I C CNN
+F4 "Murata Electronics" 0 0 50 H I C CNN "Manufacturer"
+F5 "GRM1885C1H222JA01D" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "81-GRM1885C1H222JA01" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/Search/Refine?Keyword=81-GRM1885C1H222JA01" 0 0 50 H I C CNN "URL"
+F9 "0,13" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,024" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 2.2nF_0603
+$ENDFPLIST
+DRAW
+P 3 1 1 12 100 -25 -100 -25 -100 -25 N
+P 3 1 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd0603_47nF_0603
+#
+DEF Capacitors_Smd0603_47nF_0603 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Capacitors_Smd0603_47nF_0603" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "WALSIN" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603B473K500CT" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "0603B473K500CT" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/0603b473k500ct/kondensatory-mlcc-smd-0603/walsin/" 0 0 50 H I C CNN "URL"
+F9 "0,06502" 0 0 50 H I C CNN "Price@100pcs"
+F10 "0,02748" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C313102" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 47nF_0603
+$ENDFPLIST
+DRAW
+P 3 0 1 12 100 -25 -100 -25 -100 -25 N
+P 3 0 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd1210_10uF_35V_X7R_1210
+#
+DEF Capacitors_Smd1210_10uF_35V_X7R_1210 C 0 0 N N 1 F N
+F0 "C" 100 100 50 H V C CNN
+F1 "Capacitors_Smd1210_10uF_35V_X7R_1210" 300 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "SAMSUNG" 0 0 50 H I C CNN "Manufacturer"
+F5 "CL32B106KLULNNE" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "CL32B106KLULNNE" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/cl32b106klulnne/kondensatory-mlcc-smd-1210/samsung/" 0 0 50 H I C CNN "URL"
+F9 "1,35100" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,63386" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+F12 "1210" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 10uF_35V_X7R_1210
+$ENDFPLIST
+DRAW
+P 3 1 1 12 100 -25 -100 -25 -100 -25 N
+P 3 1 1 12 100 25 -100 25 -100 25 N
+X ~ 1 0 200 176 D 50 50 1 1 P
+X ~ 2 0 -200 176 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd_Tantal_1uF_35V_SMD_Tantal
+#
+DEF Capacitors_Smd_Tantal_1uF_35V_SMD_Tantal C 0 40 N N 1 F N
+F0 "C" 125 -175 50 H V C CNN
+F1 "Capacitors_Smd_Tantal_1uF_35V_SMD_Tantal" 500 50 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ 1uF_35V_B_Tantal
+$ENDFPLIST
+DRAW
+S 100 0 -100 -50 0 1 12 N
+S -100 -100 100 -100 1 1 12 N
+P 3 0 1 12 55 60 55 20 55 20 N
+P 4 0 1 12 35 40 75 40 75 40 75 40 N
+X ~ 1 0 150 150 D 50 50 1 1 I
+X ~ 2 0 -250 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Capacitors_Smd_Tantal_22uF35V
+#
+DEF Capacitors_Smd_Tantal_22uF35V C 0 40 N N 1 F N
+F0 "C" 125 -175 50 H V C CNN
+F1 "Capacitors_Smd_Tantal_22uF35V" 300 -50 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "VISHAY" 0 0 50 H I C CNN "Manufacturer"
+F5 "293D226X9035D2TE3" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "293D226X9035D2TE3" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/" 0 0 50 H I C CNN "URL"
+F9 "3,31250" 0 0 50 H I C CNN "Price@1pc"
+F10 "1,65625" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "Size_D" 0 0 50 H I C CNN "Package"
+F13 "C126947" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 22uF_35V_Size_D
+$ENDFPLIST
+DRAW
+S 100 0 -100 -50 0 1 12 N
+S -100 -100 100 -100 1 1 12 N
+P 3 0 1 12 55 60 55 20 55 20 N
+P 4 0 1 12 35 40 75 40 75 40 75 40 N
+X ~ 1 0 150 150 D 50 50 1 1 I
+X ~ 2 0 -250 150 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Discrete_Connectors_DG301-5.0-02P-12-00A(H)
+#
+DEF Discrete_Connectors_DG301-5.0-02P-12-00A(H) P 0 40 Y N 1 F N
+F0 "P" 150 0 50 V V C CNN
+F1 "Discrete_Connectors_DG301-5.0-02P-12-00A(H)" 250 0 50 V V C CNN
+F2 "" 1100 -750 50 H I C CNN
+F3 "" 1100 -750 50 H I C CNN
+F4 "	DEGSON ELECTRONICS" 0 0 50 H I C CNN "Manufacturer"
+F5 "DG301-5.0-02P-12-00A(H)" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "DG301-5.0-2P12" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/" 0 0 50 H I C CNN "URL"
+F9 "0,6176" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,4119" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "WP" 0 0 50 H I C CNN "Developer"
+$FPLIST
+ DG301-5.0-02P-12-00A(H)
+$ENDFPLIST
+DRAW
+S -100 200 100 -200 1 1 0 f
+X ~ 1 -350 100 250 R 60 60 1 1 P
+X ~ 2 -350 -100 250 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Inductors_1.2uH-12.9A
+#
+DEF Inductors_1.2uH-12.9A L 0 40 N N 1 F N
+F0 "L" 150 0 50 V V C CNN
+F1 "Inductors_1.2uH-12.9A" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Sumida" 0 0 50 H I C CNN "Manufacturer"
+F5 "CDMC8D28NP-1R2MC" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "Mouser" 0 0 50 H I C CNN "Supplier"
+F7 "851-CDMC8D28NP-1R2MC" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://pl.mouser.com/ProductDetail/Murata-Electronics/DFE252012P-1R0M=P2?qs=KuGPmAKtFKUHla8Odvjl9w%3D%3D" 0 0 50 H I C CNN "URL"
+F9 "6,47" 0 0 50 H I C CNN "Price@1pc"
+F10 "2,6" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "9,5x8,7x3mm" 0 0 50 H I C CNN "Package"
+$FPLIST
+ CDMC8D28NP-1R2MC
+$ENDFPLIST
+DRAW
+A -96 -45 156 -187 187 1 1 0 N 52 -95 52 5
+A -96 45 156 -187 187 1 1 0 N 52 -5 52 95
+A -25 -90 27 1582 -1582 1 1 0 N -50 -80 -50 -100
+A -25 0 27 1582 -1582 1 1 0 N -50 10 -50 -10
+A -25 90 27 1582 -1582 1 1 0 N -50 100 -50 80
+A -21 103 75 -124 737 1 1 0 N 52 87 0 175
+A -13 -108 68 -790 163 1 1 0 N 0 -175 52 -89
+A 0 -105 56 266 1534 1 1 0 N 50 -80 -50 -80
+A 0 -70 58 -1490 -310 1 1 0 N -50 -100 50 -100
+A 0 -15 56 266 1534 1 1 0 N 50 10 -50 10
+A 0 20 58 -1490 -310 1 1 0 N -50 -10 50 -10
+A 0 75 56 266 1534 1 1 0 N 50 100 -50 100
+A 0 110 58 -1490 -310 1 1 0 N -50 80 50 80
+A 30 -90 22 266 -266 1 1 0 N 50 -80 50 -100
+A 30 0 22 266 -266 1 1 0 N 50 10 50 -10
+A 30 90 22 266 -266 1 1 0 N 50 100 50 80
+P 2 1 1 0 0 -200 0 -175 N
+P 2 1 1 0 0 175 0 200 N
+X ~ 1 0 300 100 D 70 70 1 1 P
+X ~ 2 0 -300 100 U 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_100k_0603
+#
+DEF Resistors_Smd0603_100k_0603 R 0 40 N Y 1 F N
+F0 "R" 100 0 50 H V C CNN
+F1 "Resistors_Smd0603_100k_0603" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "HP03W5J0104T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "HP03-100K5%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,07415" 0 0 50 H I C CNN "Price@50pcs"
+F10 "0,01696" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C269699" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 100k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_255k
+#
+DEF Resistors_Smd0603_255k R 0 40 N N 1 F N
+F0 "R" -100 0 50 V V C CNN
+F1 "Resistors_Smd0603_255k" 100 0 50 V V C CNN
+F2 "" 0 -450 50 H I C CNN
+F3 "" 0 -450 50 H I C CNN
+F4 "Panasonic" 0 0 50 H I C CNN "Manufacturer"
+F5 "ERA3AEB2553V" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "ERA3AEB2553V" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/era3aeb2553v/rezystory-precyzyjne-smd-0603/panasonic/" 0 0 50 H I C CNN "URL"
+F9 "0,37065" 0 0 50 H I C CNN "Price@10pc"
+F10 "0,15157" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "MW" 0 0 50 H I C CNN "Developer"
+F12 "0603" 0 0 50 H I C CNN "Package"
+F13 "C23354" 0 0 50 H I C CNN "LCSC Part # (optional)"
+$FPLIST
+ 255k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_360k_0603
+#
+DEF Resistors_Smd0603_360k_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Resistors_Smd0603_360k_0603" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 360k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 1 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistors_Smd0603_56k_0603
+#
+DEF Resistors_Smd0603_56k_0603 R 0 40 N Y 1 F N
+F0 "R" 150 50 60 H V C CNN
+F1 "Resistors_Smd0603_56k_0603" 300 -50 60 H V C CNN
+F2 "" 0 650 60 H I C CNN
+F3 "" 0 650 60 H I C CNN
+F4 "ROYAL OHM" 0 0 50 H I C CNN "Manufacturer"
+F5 "0603SAF5602T5E" 0 0 50 H I C CNN "Manufacturer Part Number"
+F6 "TME" 0 0 50 H I C CNN "Supplier"
+F7 "	SMD0603-56K-1%" 0 0 50 H I C CNN "Supplier Part Number"
+F8 "https://www.tme.eu/pl/details/smd0603-56k-1%2525/rezystory-smd-0603/royal-ohm/0603saf5602t5e/" 0 0 50 H I C CNN "URL"
+F9 "0,04693" 0 0 50 H I C CNN "Price@1pc"
+F10 "0,01269" 0 0 50 H I C CNN "Price@1000pcs"
+F11 "0603" 0 0 50 H I C CNN "Package"
+$FPLIST
+ 56k_0603
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 0 f
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Switching_Regulators_TPS61088RHLR
 #
 DEF Switching_Regulators_TPS61088RHLR U 0 10 Y Y 1 F N
@@ -12,7 +381,7 @@ F4 "Texas Instruments" 0 0 50 H I C CNN "Manufacturer"
 F5 "TPS61088RHLR" 0 0 50 H I C CNN "Manufacturer Part Number"
 F6 "Mouser" 0 0 50 H I C CNN "Supplier"
 F7 "595-TPS61088RHLR" 0 0 50 H I C CNN "Supplier Part Number"
-F8 "https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS61088RHLR?qs=MiqG6Kq1qKNjgpnslrNKug%3D%3D" 0 0 50 H I C CNN "URL"
+F8 "https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS61088RHLR?qs=MiqG6Kq1qKNjgpnslrNKug%3D%3D" 0 -50 50 H I C CNN "URL"
 F9 "13,95" 0 0 50 H I C CNN "Price@1pc"
 F10 "7" 0 0 50 H I C CNN "Price@1000pcs"
 F11 "MW" 0 0 50 H I C CNN "Developer"
@@ -28,22 +397,35 @@ X SS 10 -700 -350 200 R 59 59 1 1 I
 X NC 11 -700 -950 200 R 59 59 1 1 U
 X NC 12 -700 -1050 200 R 59 59 1 1 U
 X MODE 13 -700 -650 200 R 59 59 1 1 I
-X VOUT 14 700 50 200 L 59 59 1 1 W
-X VOUT 15 700 -50 200 L 59 59 1 1 W
-X VOUT 16 700 -150 200 L 59 59 1 1 W
+X VOUT 14 700 0 200 L 59 59 1 1 W
+X VOUT 15 700 -100 200 L 59 59 1 1 W
+X VOUT 16 700 -200 200 L 59 59 1 1 W
 X FB 17 700 -550 200 L 59 59 1 1 I
 X COMP 18 -700 150 200 R 59 59 1 1 O
 X ILIM 19 -700 -150 200 R 59 59 1 1 I
 X EN 2 -700 450 200 R 59 59 1 1 I
 X AGND 20 700 -850 200 L 59 59 1 1 W
 X PGND 21 700 -1050 200 L 59 59 1 1 W
-X FSW 3 700 250 200 L 59 59 1 1 I
-X SW 4 700 750 200 L 59 59 1 1 W
-X SW 5 700 650 200 L 59 59 1 1 W
-X SW 6 700 550 200 L 59 59 1 1 W
-X SW 7 700 450 200 L 59 59 1 1 W
+X FSW 3 700 200 200 L 59 59 1 1 I
+X SW 4 700 700 200 L 59 59 1 1 W
+X SW 5 700 600 200 L 59 59 1 1 W
+X SW 6 700 500 200 L 59 59 1 1 W
+X SW 7 700 400 200 L 59 59 1 1 W
 X BOOT 8 700 1050 200 L 59 59 1 1 W
 X VIN 9 -700 1050 200 R 59 59 1 1 W
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 30 H I C CNN
+F1 "power_GND" 0 -100 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 0 50 0 N
+X GND 1 0 0 0 L 40 40 1 1 W N
 ENDDRAW
 ENDDEF
 #

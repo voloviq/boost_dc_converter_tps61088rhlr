@@ -1,4 +1,4 @@
-689170753998730
+692383599779730
 Capacitors_Smd_0603
 1.2pF_GRM0335C1H1R2WA01D
 muRata SMD SM0603
@@ -1568,6 +1568,13 @@ EMI Suppresor
 2
 2
 Inductors
+CDMC8D28NP-1R2MC
+Sumida SMD POWER INDUCTOR
+Sumida SMD POWER INDUCTOR
+0
+2
+2
+Inductors
 Coil_330uH_500mA_1Ohm_Tht_Raster_5mm
 Discrete Inductor 330uH; 500mA; 1Ω; THT; ±10%; Raster:5mm
 Inductor
@@ -2548,6 +2555,13 @@ Resistor
 2
 2
 Resistor_Smd_0603
+255k_0603
+Panasonic SMD SM0603
+Resistor
+0
+2
+2
+Resistor_Smd_0603
 270k_0603
 Vishay SMD SM0603
 Resistor
@@ -2983,8 +2997,8 @@ SSOP 0.65
 8
 Switching
 TPS61088RHLR
-
-
+Boost Converter 10A Fully-Integrated Synchronous
+DC-DC Converter
 0
 25
 22

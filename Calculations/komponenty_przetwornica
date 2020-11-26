@@ -1,0 +1,25 @@
+1.2uH CDMC8D28NP-1R2MC L1 - 2.17uH
+10uF  C1 Cin
+0.1uF ceramiczny C2 Cin2
+2,2uF (> 1 uF) ceramiczny C3 Cvcc
+
+3x 22uF ceramiczny C4 - 2x Cout
+R4 - 100kOhm - 105kOhm Rlim
+R5 - 18,7 kOhm Rcomp
+C5 - ceramiczny 2,2nF Ccomp
+C8 - ceramiczny 0,22nF Ccomp2
+
+C7 - 47nF - 8,2nF Css
+C6 - 0,1 uF - Cbst
+
+R3 - 255 kOhm - 249 kOhm Rt
+R1 - 360 kOhm - 680 kOhm Rfbt
+R2 - 56 kOhm - 105 kOhm Rfbb
+
+
+
+
+
+input bulk - elektrolit 47uF
+
+

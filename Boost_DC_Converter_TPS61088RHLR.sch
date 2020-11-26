@@ -34,4 +34,753 @@ F 13 "C87357" H 7950 5700 50  0001 C CNN "LSCS Part # (optional)"
 	1    7950 5700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Capacitors_Smd0603:100nF_0603 C7
+U 1 1 5FC00986
+P 9000 4900
+F 0 "C7" H 9131 4946 50  0000 L CNN
+F 1 "100nF/50V" H 9131 4855 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 9000 4900 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 9000 4900 60  0001 C CNN
+F 4 "SAMSUNG" H 9000 4900 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 9000 4900 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9000 4900 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 9000 4900 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 9000 4900 50  0001 C CNN "URL"
+F 9 "0,04540" H 9000 4900 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 9000 4900 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 9000 4900 50  0001 C CNN "Package"
+	1    9000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4650 9000 4650
+Wire Wire Line
+	9000 4650 9000 4700
+Wire Wire Line
+	9000 5100 9000 5150
+Wire Wire Line
+	8650 5000 8750 5000
+Wire Wire Line
+	8750 5000 8750 5100
+Wire Wire Line
+	8750 5300 8650 5300
+Wire Wire Line
+	8650 5100 8750 5100
+Connection ~ 8750 5100
+Wire Wire Line
+	8750 5100 8750 5150
+Wire Wire Line
+	8650 5200 8750 5200
+Connection ~ 8750 5200
+Wire Wire Line
+	8750 5200 8750 5300
+Wire Wire Line
+	9000 5150 8750 5150
+Connection ~ 8750 5150
+Wire Wire Line
+	8750 5150 8750 5200
+$Comp
+L Resistors_Smd0603:255k R3
+U 1 1 5FC03F3A
+P 9150 5300
+F 0 "R3" V 9050 5300 50  0000 C CNN
+F 1 "255k" V 9150 5300 50  0000 C CNN
+F 2 "Resistor_Smd_0603:255k_0603" H 9150 4850 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/a839d5a6a074011d43019559d4a1a0c7/AOA0000C307.pdf" H 9150 4850 50  0001 C CNN
+F 4 "Panasonic" H 9150 5300 50  0001 C CNN "Manufacturer"
+F 5 "ERA3AEB2553V" H 9150 5300 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9150 5300 50  0001 C CNN "Supplier"
+F 7 "ERA3AEB2553V" H 9150 5300 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/era3aeb2553v/rezystory-precyzyjne-smd-0603/panasonic/" H 9150 5300 50  0001 C CNN "URL"
+F 9 "0,37065" H 9150 5300 50  0001 C CNN "Price@10pc"
+F 10 "0,15157" H 9150 5300 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 9150 5300 50  0001 C CNN "Developer"
+F 12 "0603" H 9150 5300 50  0001 C CNN "Package"
+F 13 "C23354" H 9150 5300 50  0001 C CNN "LCSC Part # (optional)"
+	1    9150 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 5300 8750 5300
+Connection ~ 8750 5300
+Wire Wire Line
+	9400 5300 9500 5300
+Wire Wire Line
+	9500 5300 9500 5500
+Wire Wire Line
+	9500 5500 8650 5500
+$Comp
+L Capacitors_Smd0603:2_2uF_0603 C6
+U 1 1 5FC0562E
+P 6900 4850
+F 0 "C6" V 6800 4650 50  0000 C CNN
+F 1 "2.2uF/6.3V" V 7050 4850 50  0000 C CNN
+F 2 "Capacitors_Smd_0603:2_2uF_0603" H 7050 4500 50  0001 C CNN
+F 3 "C:/Wiktor/KiCad/KiCadWolowik/Schematic/Capacitors/Smd_0603/Components_Documentation/2_2uF_0603.pdf" H 7050 4500 50  0001 C CNN
+F 4 "0603" H 6900 4850 50  0001 C CNN "Package"
+	1    6900 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4850 7100 4850
+$Comp
+L power:GND #PWR0101
+U 1 1 5FC06BF9
+P 6600 4850
+F 0 "#PWR0101" H 6600 4950 30  0001 C CNN
+F 1 "GND" H 6600 4750 30  0001 C CNN
+F 2 "" H 6600 4850 60  0000 C CNN
+F 3 "" H 6600 4850 60  0000 C CNN
+	1    6600 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FC072FC
+P 8750 6550
+F 0 "#PWR0102" H 8750 6650 30  0001 C CNN
+F 1 "GND" H 8750 6450 30  0001 C CNN
+F 2 "" H 8750 6550 60  0000 C CNN
+F 3 "" H 8750 6550 60  0000 C CNN
+	1    8750 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FC078BC
+P 8750 6750
+F 0 "#PWR0103" H 8750 6850 30  0001 C CNN
+F 1 "GND" H 8750 6650 30  0001 C CNN
+F 2 "" H 8750 6750 60  0000 C CNN
+F 3 "" H 8750 6750 60  0000 C CNN
+	1    8750 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 6550 8650 6550
+Wire Wire Line
+	8650 6750 8750 6750
+Wire Wire Line
+	6700 4850 6600 4850
+$Comp
+L Inductors:1.2uH-12.9A L1
+U 1 1 5FC0AE80
+P 7950 4150
+F 0 "L1" V 8050 4150 50  0000 C CNN
+F 1 "1.2uH-12.9A" V 7850 4150 50  0000 C CNN
+F 2 "Inductors:CDMC8D28NP-1R2MC" H 7950 4150 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/390/CDMC8D28-837924.pdf" H 7950 4150 50  0001 C CNN
+F 4 "Sumida" H 7950 4150 50  0001 C CNN "Manufacturer"
+F 5 "CDMC8D28NP-1R2MC" H 7950 4150 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 7950 4150 50  0001 C CNN "Supplier"
+F 7 "851-CDMC8D28NP-1R2MC" H 7950 4150 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/Murata-Electronics/DFE252012P-1R0M=P2?qs=KuGPmAKtFKUHla8Odvjl9w%3D%3D" H 7950 4150 50  0001 C CNN "URL"
+F 9 "6,47" H 7950 4150 50  0001 C CNN "Price@1pc"
+F 10 "2,6" H 7950 4150 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 7950 4150 50  0001 C CNN "Developer"
+F 12 "9,5x8,7x3mm" H 7950 4150 50  0001 C CNN "Package"
+F 13 "" H 7950 4150 50  0001 C CNN "LCSC Part # (optional)"
+	1    7950 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 4150 9700 4150
+Wire Wire Line
+	9700 4150 9700 5150
+Wire Wire Line
+	9700 5150 9000 5150
+Connection ~ 9000 5150
+Wire Wire Line
+	7650 4150 7150 4150
+Wire Wire Line
+	7150 4150 7150 4650
+Wire Wire Line
+	7150 4650 7250 4650
+$Comp
+L Capacitors_Smd0603:100nF_0603 C2
+U 1 1 5FC0D3B0
+P 5950 4950
+F 0 "C2" H 6081 4996 50  0000 L CNN
+F 1 "100nF/50V" H 6081 4905 50  0000 L CNN
+F 2 "Capacitors_Smd_0603:100nF_0603" H 5950 4950 60  0001 C CNN
+F 3 "Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf" H 5950 4950 60  0001 C CNN
+F 4 "SAMSUNG" H 5950 4950 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104JB8NNNC" H 5950 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5950 4950 50  0001 C CNN "Supplier"
+F 7 "CL10B104JB8NNNC" H 5950 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/" H 5950 4950 50  0001 C CNN "URL"
+F 9 "0,04540" H 5950 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,02231" H 5950 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 5950 4950 50  0001 C CNN "Package"
+	1    5950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4650 5950 4650
+Wire Wire Line
+	5950 4650 5950 4750
+Connection ~ 7150 4650
+$Comp
+L power:GND #PWR0104
+U 1 1 5FC0EE4B
+P 5950 5250
+F 0 "#PWR0104" H 5950 5350 30  0001 C CNN
+F 1 "GND" H 5950 5150 30  0001 C CNN
+F 2 "" H 5950 5250 60  0000 C CNN
+F 3 "" H 5950 5250 60  0000 C CNN
+	1    5950 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 5150 5950 5250
+$Comp
+L Capacitors_Smd1210:10uF_35V_X7R_1210 C1
+U 1 1 5FC0FB5D
+P 5300 4950
+F 0 "C1" H 5431 4996 50  0000 L CNN
+F 1 "10uF/35V" H 5431 4905 50  0000 L CNN
+F 2 "Capacitors_Smd_1210:10uF_35V_X7R_1210" H 5300 4950 50  0001 C CNN
+F 3 "Capacitors/Smd_1210/General Multilayer Ceramic Capacitors.pdf" H 5300 4950 50  0001 C CNN
+F 4 "SAMSUNG" H 5300 4950 50  0001 C CNN "Manufacturer"
+F 5 "CL32B106KLULNNE" H 5300 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 5300 4950 50  0001 C CNN "Supplier"
+F 7 "CL32B106KLULNNE" H 5300 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/cl32b106klulnne/kondensatory-mlcc-smd-1210/samsung/" H 5300 4950 50  0001 C CNN "URL"
+F 9 "1,35100" H 5300 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,63386" H 5300 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 5300 4950 50  0001 C CNN "Developer"
+F 12 "1210" H 5300 4950 50  0001 C CNN "Package"
+	1    5300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FC106EF
+P 5300 5250
+F 0 "#PWR0105" H 5300 5350 30  0001 C CNN
+F 1 "GND" H 5300 5150 30  0001 C CNN
+F 2 "" H 5300 5250 60  0000 C CNN
+F 3 "" H 5300 5250 60  0000 C CNN
+	1    5300 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 5150 5300 5250
+Wire Wire Line
+	5950 4650 5300 4650
+Wire Wire Line
+	5300 4650 5300 4750
+Connection ~ 5950 4650
+$Comp
+L Resistors_Smd0603:100k_0603 R2
+U 1 1 5FC1184A
+P 6850 5850
+F 0 "R2" V 6800 6100 50  0000 C CNN
+F 1 "100k" V 6850 5850 50  0000 C CNN
+F 2 "Resistor_Smd_0603:100k_0603" H 6850 5850 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/fa390a0a31e891a154d3713216995c6e/HighPowerHP.pdf" H 6850 5850 50  0001 C CNN
+F 4 "ROYAL OHM" H 6850 5850 50  0001 C CNN "Manufacturer"
+F 5 "HP03W5J0104T5E" H 6850 5850 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6850 5850 50  0001 C CNN "Supplier"
+F 7 "HP03-100K5%" H 6850 5850 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/" H 6850 5850 50  0001 C CNN "URL"
+F 9 "0,07415" H 6850 5850 50  0001 C CNN "Price@50pcs"
+F 10 "0,01696" H 6850 5850 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6850 5850 50  0001 C CNN "Developer"
+F 12 "0603" H 6850 5850 50  0001 C CNN "Package"
+F 13 "C269699" H 6850 5850 50  0001 C CNN "LCSC Part # (optional)"
+	1    6850 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 5850 7100 5850
+$Comp
+L power:GND #PWR0106
+U 1 1 5FC12A90
+P 6500 5850
+F 0 "#PWR0106" H 6500 5950 30  0001 C CNN
+F 1 "GND" H 6500 5750 30  0001 C CNN
+F 2 "" H 6500 5850 60  0000 C CNN
+F 3 "" H 6500 5850 60  0000 C CNN
+	1    6500 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 5850 6500 5850
+$Comp
+L Capacitors_Smd0603:47nF_0603 C5
+U 1 1 5FC13BBE
+P 6850 6050
+F 0 "C5" V 6750 6200 50  0000 C CNN
+F 1 "47nF/50V" V 7000 6050 50  0000 C CNN
+F 2 "Capacitors_Smd_0603:47nF_0603" H 6850 6050 60  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf" H 6850 6050 60  0001 C CNN
+F 4 "WALSIN" H 6850 6050 50  0001 C CNN "Manufacturer"
+F 5 "0603B473K500CT" H 6850 6050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6850 6050 50  0001 C CNN "Supplier"
+F 7 "0603B473K500CT" H 6850 6050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/0603b473k500ct/kondensatory-mlcc-smd-0603/walsin/" H 6850 6050 50  0001 C CNN "URL"
+F 9 "0,06502" H 6850 6050 50  0001 C CNN "Price@100pcs"
+F 10 "0,02748" H 6850 6050 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6850 6050 50  0001 C CNN "Developer"
+F 12 "0603" H 6850 6050 50  0001 C CNN "Package"
+F 13 "C313102" H 6850 6050 50  0001 C CNN "LCSC Part # (optional)"
+	1    6850 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 6050 7050 6050
+$Comp
+L power:GND #PWR0107
+U 1 1 5FC1516F
+P 6500 6050
+F 0 "#PWR0107" H 6500 6150 30  0001 C CNN
+F 1 "GND" H 6500 5950 30  0001 C CNN
+F 2 "" H 6500 6050 60  0000 C CNN
+F 3 "" H 6500 6050 60  0000 C CNN
+	1    6500 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6050 6650 6050
+NoConn ~ 7250 6350
+NoConn ~ 7250 6650
+NoConn ~ 7250 6750
+Wire Wire Line
+	8650 5700 8750 5700
+Wire Wire Line
+	8750 5700 8750 5800
+Wire Wire Line
+	8750 5900 8650 5900
+Wire Wire Line
+	8650 5800 8750 5800
+Connection ~ 8750 5800
+Wire Wire Line
+	8750 5800 8750 5900
+$Comp
+L Resistors_Smd0603:360k_0603 R4
+U 1 1 5FC19621
+P 9500 6100
+F 0 "R4" H 9568 6146 50  0000 L CNN
+F 1 "360k" H 9568 6055 50  0000 L CNN
+F 2 "Resistor_Smd_0603:360k_0603" H 9500 6100 50  0001 C CNN
+F 3 "/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9500 6100 50  0001 C CNN
+F 4 "0603" H 9500 6100 50  0001 C CNN "Package"
+	1    9500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5800 9500 5800
+Wire Wire Line
+	9500 5800 9500 5850
+$Comp
+L Resistors_Smd0603:56k_0603 R5
+U 1 1 5FC1A94C
+P 9500 6700
+F 0 "R5" H 9568 6753 60  0000 L CNN
+F 1 "56k" H 9568 6647 60  0000 L CNN
+F 2 "Resistor_Smd_0603:56k_0603" H 9500 7350 60  0001 C CNN
+F 3 "Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf" H 9500 7350 60  0001 C CNN
+F 4 "ROYAL OHM" H 9500 6700 50  0001 C CNN "Manufacturer"
+F 5 "0603SAF5602T5E" H 9500 6700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 9500 6700 50  0001 C CNN "Supplier"
+F 7 "	SMD0603-56K-1%" H 9500 6700 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/smd0603-56k-1%2525/rezystory-smd-0603/royal-ohm/0603saf5602t5e/" H 9500 6700 50  0001 C CNN "URL"
+F 9 "0,04693" H 9500 6700 50  0001 C CNN "Price@1pc"
+F 10 "0,01269" H 9500 6700 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 9500 6700 50  0001 C CNN "Package"
+	1    9500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FC1B405
+P 9500 7050
+F 0 "#PWR0108" H 9500 7150 30  0001 C CNN
+F 1 "GND" H 9500 6950 30  0001 C CNN
+F 2 "" H 9500 7050 60  0000 C CNN
+F 3 "" H 9500 7050 60  0000 C CNN
+	1    9500 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 6950 9500 7050
+Wire Wire Line
+	9500 6450 9500 6400
+Wire Wire Line
+	8650 6250 9100 6250
+Wire Wire Line
+	9100 6250 9100 6400
+Wire Wire Line
+	9100 6400 9500 6400
+Connection ~ 9500 6400
+Wire Wire Line
+	9500 6400 9500 6350
+$Comp
+L Resistors_Smd0603:100k_0603 R1
+U 1 1 5FC1E264
+P 6850 5700
+F 0 "R1" V 6750 5700 50  0000 C CNN
+F 1 "100k" V 6850 5700 50  0000 C CNN
+F 2 "Resistor_Smd_0603:100k_0603" H 6850 5700 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/fa390a0a31e891a154d3713216995c6e/HighPowerHP.pdf" H 6850 5700 50  0001 C CNN
+F 4 "ROYAL OHM" H 6850 5700 50  0001 C CNN "Manufacturer"
+F 5 "HP03W5J0104T5E" H 6850 5700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 6850 5700 50  0001 C CNN "Supplier"
+F 7 "HP03-100K5%" H 6850 5700 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/" H 6850 5700 50  0001 C CNN "URL"
+F 9 "0,07415" H 6850 5700 50  0001 C CNN "Price@50pcs"
+F 10 "0,01696" H 6850 5700 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 6850 5700 50  0001 C CNN "Developer"
+F 12 "0603" H 6850 5700 50  0001 C CNN "Package"
+F 13 "C269699" H 6850 5700 50  0001 C CNN "LCSC Part # (optional)"
+	1    6850 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitors_Smd0603:2n2F_0603 C3
+U 1 1 5FC2090E
+P 6300 5700
+F 0 "C3" V 6150 5700 50  0000 C CNN
+F 1 "2n2F/50V" V 6450 5700 50  0000 C CNN
+F 2 "Capacitors_Smd_0603:2.2nF_0603" H 6700 5350 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf" H 6700 5350 50  0001 C CNN
+F 4 "Murata Electronics" H 6300 5700 50  0001 C CNN "Manufacturer"
+F 5 "GRM1885C1H222JA01D" H 6300 5700 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 6300 5700 50  0001 C CNN "Supplier"
+F 7 "81-GRM1885C1H222JA01" H 6300 5700 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/Search/Refine?Keyword=81-GRM1885C1H222JA01" H 6300 5700 50  0001 C CNN "URL"
+F 9 "0,13" H 6300 5700 50  0001 C CNN "Price@1pc"
+F 10 "0,024" H 6300 5700 50  0001 C CNN "Price@1000pcs"
+F 11 "0603" H 6300 5700 50  0001 C CNN "Package"
+	1    6300 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 5700 6600 5700
+$Comp
+L power:GND #PWR0109
+U 1 1 5FC23805
+P 6000 5700
+F 0 "#PWR0109" H 6000 5800 30  0001 C CNN
+F 1 "GND" H 6000 5600 30  0001 C CNN
+F 2 "" H 6000 5700 60  0000 C CNN
+F 3 "" H 6000 5700 60  0000 C CNN
+	1    6000 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 5700 6000 5700
+Wire Wire Line
+	7250 5550 7150 5550
+$Comp
+L Capacitors_Smd0603:220pF_0603 C4
+U 1 1 5FC27FDD
+P 6850 5400
+F 0 "C4" V 6750 5200 50  0000 C CNN
+F 1 "220pF/50V" V 6950 5150 50  0000 C CNN
+F 2 "Capacitors_Smd_0603:220pF_0603" H 6850 5400 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/C0GNP0-Dielectric-951274.pdf" H 6850 5400 50  0001 C CNN
+F 4 "AVX" H 6850 5400 50  0001 C CNN "Manufacturer"
+F 5 "06035A221JAT2A " H 6850 5400 50  0001 C CNN "Manufacturer Part Number"
+F 6 "Mouser" H 6850 5400 50  0001 C CNN "Supplier"
+F 7 "581-06035A221J " H 6850 5400 50  0001 C CNN "Supplier Part Number"
+F 8 "https://pl.mouser.com/ProductDetail/AVX/06035A221JAT2A?qs=sGAEpiMZZMs0AnBnWHyRQE2IRmxFPR1eltIuQ0lzIwI%3D" H 6850 5400 50  0001 C CNN "URL"
+F 9 "0,168" H 6850 5400 50  0001 C CNN "Price@100pcs"
+F 10 "0,10" H 6850 5400 50  0001 C CNN "Price@1000pcs"
+F 11 "IW" H 6850 5400 50  0001 C CNN "Developer"
+F 12 "0603" H 6850 5400 50  0001 C CNN "Package"
+F 13 "C431002" H 6850 5400 50  0001 C CNN "LCSC Part # (optional)"
+	1    6850 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 5550 7150 5400
+Wire Wire Line
+	7150 5400 7050 5400
+Wire Wire Line
+	7150 5550 7150 5700
+Wire Wire Line
+	7150 5700 7100 5700
+Connection ~ 7150 5550
+$Comp
+L power:GND #PWR0110
+U 1 1 5FC2C8F6
+P 6550 5400
+F 0 "#PWR0110" H 6550 5500 30  0001 C CNN
+F 1 "GND" H 6550 5300 30  0001 C CNN
+F 2 "" H 6550 5400 60  0000 C CNN
+F 3 "" H 6550 5400 60  0000 C CNN
+	1    6550 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 5400 6550 5400
+$Comp
+L Capacitors_Smd_Tantal:22uF35V C9
+U 1 1 5FC2EAEE
+P 10500 6050
+F 0 "C9" H 10631 6046 50  0000 L CNN
+F 1 "22uF/35V" H 10631 5955 50  0000 L CNN
+F 2 "Smd_Tantal:22uF_35V_Size_D" H 10500 6050 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" H 10500 6050 60  0001 C CNN
+F 4 "VISHAY" H 10500 6050 50  0001 C CNN "Manufacturer"
+F 5 "293D226X9035D2TE3" H 10500 6050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 10500 6050 50  0001 C CNN "Supplier"
+F 7 "293D226X9035D2TE3" H 10500 6050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/" H 10500 6050 50  0001 C CNN "URL"
+F 9 "3,31250" H 10500 6050 50  0001 C CNN "Price@1pc"
+F 10 "1,65625" H 10500 6050 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 10500 6050 50  0001 C CNN "Developer"
+F 12 "Size_D" H 10500 6050 50  0001 C CNN "Package"
+F 13 "C126947" H 10500 6050 50  0001 C CNN "LCSC Part # (optional)"
+	1    10500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd_Tantal:22uF35V C10
+U 1 1 5FC2FE78
+P 11150 6050
+F 0 "C10" H 11281 6046 50  0000 L CNN
+F 1 "22uF/35V" H 11281 5955 50  0000 L CNN
+F 2 "Smd_Tantal:22uF_35V_Size_D" H 11150 6050 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" H 11150 6050 60  0001 C CNN
+F 4 "VISHAY" H 11150 6050 50  0001 C CNN "Manufacturer"
+F 5 "293D226X9035D2TE3" H 11150 6050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 11150 6050 50  0001 C CNN "Supplier"
+F 7 "293D226X9035D2TE3" H 11150 6050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/" H 11150 6050 50  0001 C CNN "URL"
+F 9 "3,31250" H 11150 6050 50  0001 C CNN "Price@1pc"
+F 10 "1,65625" H 11150 6050 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 11150 6050 50  0001 C CNN "Developer"
+F 12 "Size_D" H 11150 6050 50  0001 C CNN "Package"
+F 13 "C126947" H 11150 6050 50  0001 C CNN "LCSC Part # (optional)"
+	1    11150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitors_Smd_Tantal:22uF35V C11
+U 1 1 5FC314BE
+P 11800 6050
+F 0 "C11" H 11931 6046 50  0000 L CNN
+F 1 "22uF/35V" H 11931 5955 50  0000 L CNN
+F 2 "Smd_Tantal:22uF_35V_Size_D" H 11800 6050 60  0001 C CNN
+F 3 "https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf" H 11800 6050 60  0001 C CNN
+F 4 "VISHAY" H 11800 6050 50  0001 C CNN "Manufacturer"
+F 5 "293D226X9035D2TE3" H 11800 6050 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 11800 6050 50  0001 C CNN "Supplier"
+F 7 "293D226X9035D2TE3" H 11800 6050 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/" H 11800 6050 50  0001 C CNN "URL"
+F 9 "3,31250" H 11800 6050 50  0001 C CNN "Price@1pc"
+F 10 "1,65625" H 11800 6050 50  0001 C CNN "Price@1000pcs"
+F 11 "MW" H 11800 6050 50  0001 C CNN "Developer"
+F 12 "Size_D" H 11800 6050 50  0001 C CNN "Package"
+F 13 "C126947" H 11800 6050 50  0001 C CNN "LCSC Part # (optional)"
+	1    11800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FC32CC5
+P 10500 6400
+F 0 "#PWR0111" H 10500 6500 30  0001 C CNN
+F 1 "GND" H 10500 6300 30  0001 C CNN
+F 2 "" H 10500 6400 60  0000 C CNN
+F 3 "" H 10500 6400 60  0000 C CNN
+	1    10500 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 6300 10500 6400
+$Comp
+L power:GND #PWR0112
+U 1 1 5FC34441
+P 11150 6400
+F 0 "#PWR0112" H 11150 6500 30  0001 C CNN
+F 1 "GND" H 11150 6300 30  0001 C CNN
+F 2 "" H 11150 6400 60  0000 C CNN
+F 3 "" H 11150 6400 60  0000 C CNN
+	1    11150 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 6300 11150 6400
+$Comp
+L power:GND #PWR0113
+U 1 1 5FC359D0
+P 11800 6400
+F 0 "#PWR0113" H 11800 6500 30  0001 C CNN
+F 1 "GND" H 11800 6300 30  0001 C CNN
+F 2 "" H 11800 6400 60  0000 C CNN
+F 3 "" H 11800 6400 60  0000 C CNN
+	1    11800 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 6300 11800 6400
+Wire Wire Line
+	9500 5800 9900 5800
+Wire Wire Line
+	11800 5800 11800 5900
+Connection ~ 9500 5800
+Wire Wire Line
+	11150 5900 11150 5800
+Connection ~ 11150 5800
+Wire Wire Line
+	11150 5800 11800 5800
+Wire Wire Line
+	10500 5900 10500 5800
+Connection ~ 10500 5800
+Wire Wire Line
+	10500 5800 11150 5800
+$Comp
+L Capacitors_Smd_Tantal:1uF_35V_SMD_Tantal C8
+U 1 1 5FC3B2D2
+P 9900 6050
+F 0 "C8" H 10031 6046 50  0000 L CNN
+F 1 "1uF/35V" H 10031 5955 50  0000 L CNN
+F 2 "Smd_Tantal:1uF_35V_B_Tantal" H 9900 6050 60  0001 C CNN
+F 3 "Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf" H 10031 5909 60  0001 L CNN
+	1    9900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5FC3E53E
+P 9900 6400
+F 0 "#PWR0114" H 9900 6500 30  0001 C CNN
+F 1 "GND" H 9900 6300 30  0001 C CNN
+F 2 "" H 9900 6400 60  0000 C CNN
+F 3 "" H 9900 6400 60  0000 C CNN
+	1    9900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 6300 9900 6400
+Wire Wire Line
+	9900 5900 9900 5800
+Connection ~ 9900 5800
+Wire Wire Line
+	9900 5800 10500 5800
+Wire Wire Line
+	7250 5250 6250 5250
+Wire Wire Line
+	6250 5250 6250 5400
+Wire Wire Line
+	6250 5400 4450 5400
+Wire Wire Line
+	5300 4650 4450 4650
+Connection ~ 5300 4650
+Wire Wire Line
+	11800 5800 12650 5800
+Connection ~ 11800 5800
+$Comp
+L Discrete_Connectors:DG301-5.0-02P-12-00A(H) P3
+U 1 1 5FC467AF
+P 12750 5350
+F 0 "P3" V 13050 5400 50  0000 R CNN
+F 1 "DG301-5.0-02P-12-00A(H)" V 12950 5900 50  0000 R CNN
+F 2 "Discrete_Connectors:DG301-5.0-02P-12-00A(H)" H 13850 4600 50  0001 C CNN
+F 3 "Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf" H 13850 4600 50  0001 C CNN
+F 4 "	DEGSON ELECTRONICS" H 12750 5350 50  0001 C CNN "Manufacturer"
+F 5 "DG301-5.0-02P-12-00A(H)" H 12750 5350 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 12750 5350 50  0001 C CNN "Supplier"
+F 7 "DG301-5.0-2P12" H 12750 5350 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/" H 12750 5350 50  0001 C CNN "URL"
+F 9 "0,6176" H 12750 5350 50  0001 C CNN "Price@1pc"
+F 10 "0,4119" H 12750 5350 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 12750 5350 50  0001 C CNN "Developer"
+	1    12750 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12650 5700 12650 5800
+$Comp
+L power:GND #PWR0115
+U 1 1 5FC49B3F
+P 12850 5800
+F 0 "#PWR0115" H 12850 5900 30  0001 C CNN
+F 1 "GND" H 12850 5700 30  0001 C CNN
+F 2 "" H 12850 5800 60  0000 C CNN
+F 3 "" H 12850 5800 60  0000 C CNN
+	1    12850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 5700 12850 5800
+Text Notes 12625 5400 0    50   ~ 10
+9V/3A
+$Comp
+L Discrete_Connectors:DG301-5.0-02P-12-00A(H) P1
+U 1 1 5FC4CA21
+P 4350 4200
+F 0 "P1" V 4350 4550 50  0000 R CNN
+F 1 "DG301-5.0-02P-12-00A(H)" V 4550 4750 50  0000 R CNN
+F 2 "Discrete_Connectors:DG301-5.0-02P-12-00A(H)" H 5450 3450 50  0001 C CNN
+F 3 "Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf" H 5450 3450 50  0001 C CNN
+F 4 "	DEGSON ELECTRONICS" H 4350 4200 50  0001 C CNN "Manufacturer"
+F 5 "DG301-5.0-02P-12-00A(H)" H 4350 4200 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 4350 4200 50  0001 C CNN "Supplier"
+F 7 "DG301-5.0-2P12" H 4350 4200 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/" H 4350 4200 50  0001 C CNN "URL"
+F 9 "0,6176" H 4350 4200 50  0001 C CNN "Price@1pc"
+F 10 "0,4119" H 4350 4200 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 4350 4200 50  0001 C CNN "Developer"
+	1    4350 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 4550 4450 4650
+$Comp
+L power:GND #PWR0116
+U 1 1 5FC50AAC
+P 4250 4650
+F 0 "#PWR0116" H 4250 4750 30  0001 C CNN
+F 1 "GND" H 4250 4550 30  0001 C CNN
+F 2 "" H 4250 4650 60  0000 C CNN
+F 3 "" H 4250 4650 60  0000 C CNN
+	1    4250 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 4550 4250 4650
+$Comp
+L Discrete_Connectors:DG301-5.0-02P-12-00A(H) P2
+U 1 1 5FC55FAD
+P 4350 4950
+F 0 "P2" V 4350 5300 50  0000 R CNN
+F 1 "DG301-5.0-02P-12-00A(H)" V 4550 5500 50  0000 R CNN
+F 2 "Discrete_Connectors:DG301-5.0-02P-12-00A(H)" H 5450 4200 50  0001 C CNN
+F 3 "Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf" H 5450 4200 50  0001 C CNN
+F 4 "	DEGSON ELECTRONICS" H 4350 4950 50  0001 C CNN "Manufacturer"
+F 5 "DG301-5.0-02P-12-00A(H)" H 4350 4950 50  0001 C CNN "Manufacturer Part Number"
+F 6 "TME" H 4350 4950 50  0001 C CNN "Supplier"
+F 7 "DG301-5.0-2P12" H 4350 4950 50  0001 C CNN "Supplier Part Number"
+F 8 "https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/" H 4350 4950 50  0001 C CNN "URL"
+F 9 "0,6176" H 4350 4950 50  0001 C CNN "Price@1pc"
+F 10 "0,4119" H 4350 4950 50  0001 C CNN "Price@1000pcs"
+F 11 "WP" H 4350 4950 50  0001 C CNN "Developer"
+	1    4350 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4450 5400 4450 5300
+$Comp
+L power:GND #PWR0117
+U 1 1 5FC5A260
+P 4250 5400
+F 0 "#PWR0117" H 4250 5500 30  0001 C CNN
+F 1 "GND" H 4250 5300 30  0001 C CNN
+F 2 "" H 4250 5400 60  0000 C CNN
+F 3 "" H 4250 5400 60  0000 C CNN
+	1    4250 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 5300 4250 5400
+Text Notes 4200 5000 0    50   ~ 10
+ENABLE
+Text Notes 4175 4250 0    50   ~ 10
+3.2V/10A
 $EndSCHEMATC
