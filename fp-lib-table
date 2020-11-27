@@ -8,4 +8,5 @@
   (lib (name Inductors)(type KiCad)(uri ${KISYS3DMOD}/Inductors/Inductors.pretty)(options "")(descr ""))
   (lib (name Resistor_Smd_0603)(type KiCad)(uri ${KISYS3DMOD}/Resistors/Smd_0603/Resistor_Smd_0603.pretty)(options "")(descr ""))
   (lib (name Switching)(type KiCad)(uri ${KISYS3DMOD}/Dc_Dc_Regulators/Switching/Switching.pretty)(options "")(descr ""))
+  (lib (name Mounting_Holes)(type KiCad)(uri ${KISYS3DMOD}/Mounting_Holes/Mounting_Holes.pretty)(options "")(descr ""))
 )

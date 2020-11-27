@@ -9,4 +9,5 @@
   (lib (name Ptc_Smd_Fuses)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Fuses/Smd_Ptc_Fuses/Ptc_Smd_Fuses.lib)(options "")(descr ""))
   (lib (name Switching_Regulators)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Dc_Dc_Regulators/Switching/Switching_Regulators.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Power_Signs/power.lib)(options "")(descr ""))
+  (lib (name Mounting_Holes)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/Mounting_Holes/Mounting_Holes.lib)(options "")(descr ""))
 )

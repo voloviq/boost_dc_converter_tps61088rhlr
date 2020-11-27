@@ -1,4 +1,4 @@
-692383599779730
+698794445760181
 Capacitors_Smd_0603
 1.2pF_GRM0335C1H1R2WA01D
 muRata SMD SM0603
@@ -1854,6 +1854,34 @@ XEL6060-272MEC
 0
 2
 2
+Mounting_Holes
+Mounting_Hole_M2_Grounded
+
+
+0
+7
+1
+Mounting_Holes
+Mounting_Hole_M2_Isolated
+
+
+0
+0
+0
+Mounting_Holes
+Mounting_Hole_M3_Grounded
+
+
+0
+9
+1
+Mounting_Holes
+Mounting_Hole_M3_Isolated
+
+
+0
+0
+0
 Resistor_Smd_0603
 0R05_0603
 

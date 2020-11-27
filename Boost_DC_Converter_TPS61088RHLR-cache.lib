@@ -273,6 +273,23 @@ X ~ 2 0 -300 100 U 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mounting_Holes_Mounting_Hole_M3_Grounded
+#
+DEF Mounting_Holes_Mounting_Hole_M3_Grounded MH 0 40 N N 1 F N
+F0 "MH" 0 150 50 H V C CNN
+F1 "Mounting_Holes_Mounting_Hole_M3_Grounded" 0 250 50 H V C CNN
+F2 "" 50 -200 50 H I C CNN
+F3 "" 50 -200 50 H I C CNN
+$FPLIST
+ Mounting_Hole_M3_Grounded
+$ENDFPLIST
+DRAW
+C 0 0 96 0 1 0 N
+P 2 0 1 0 -100 -100 100 100 N
+X 1 1 0 -200 101 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistors_Smd0603_100k_0603
 #
 DEF Resistors_Smd0603_100k_0603 R 0 40 N Y 1 F N

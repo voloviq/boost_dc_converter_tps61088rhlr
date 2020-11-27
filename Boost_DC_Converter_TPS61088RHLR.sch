@@ -783,4 +783,100 @@ Text Notes 4200 5000 0    50   ~ 10
 ENABLE
 Text Notes 4175 4250 0    50   ~ 10
 3.2V/10A
+$Comp
+L Mounting_Holes:Mounting_Hole_M3_Grounded MH4
+U 1 1 5FC178DA
+P 10500 10700
+F 0 "MH4" H 10628 10688 50  0000 L CNN
+F 1 "Mounting_Hole_M3_Grounded" H 10628 10597 50  0000 L CNN
+F 2 "Mounting_Holes:Mounting_Hole_M3_Grounded" H 10550 10500 50  0001 C CNN
+F 3 "" H 10550 10500 50  0001 C CNN
+	1    10500 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5FC17D0B
+P 10500 11000
+F 0 "#PWR0118" H 10500 11100 30  0001 C CNN
+F 1 "GND" H 10500 10900 30  0001 C CNN
+F 2 "" H 10500 11000 60  0000 C CNN
+F 3 "" H 10500 11000 60  0000 C CNN
+	1    10500 11000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 10900 10500 11000
+$Comp
+L Mounting_Holes:Mounting_Hole_M3_Grounded MH3
+U 1 1 5FC1A89E
+P 10500 10200
+F 0 "MH3" H 10628 10188 50  0000 L CNN
+F 1 "Mounting_Hole_M3_Grounded" H 10628 10097 50  0000 L CNN
+F 2 "Mounting_Holes:Mounting_Hole_M3_Grounded" H 10550 10000 50  0001 C CNN
+F 3 "" H 10550 10000 50  0001 C CNN
+	1    10500 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5FC1AB60
+P 10500 10500
+F 0 "#PWR0119" H 10500 10600 30  0001 C CNN
+F 1 "GND" H 10500 10400 30  0001 C CNN
+F 2 "" H 10500 10500 60  0000 C CNN
+F 3 "" H 10500 10500 60  0000 C CNN
+	1    10500 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 10400 10500 10500
+$Comp
+L Mounting_Holes:Mounting_Hole_M3_Grounded MH2
+U 1 1 5FC1D214
+P 9100 10700
+F 0 "MH2" H 9228 10688 50  0000 L CNN
+F 1 "Mounting_Hole_M3_Grounded" H 9228 10597 50  0000 L CNN
+F 2 "Mounting_Holes:Mounting_Hole_M3_Grounded" H 9150 10500 50  0001 C CNN
+F 3 "" H 9150 10500 50  0001 C CNN
+	1    9100 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5FC1D4F2
+P 9100 11000
+F 0 "#PWR0120" H 9100 11100 30  0001 C CNN
+F 1 "GND" H 9100 10900 30  0001 C CNN
+F 2 "" H 9100 11000 60  0000 C CNN
+F 3 "" H 9100 11000 60  0000 C CNN
+	1    9100 11000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 10900 9100 11000
+$Comp
+L Mounting_Holes:Mounting_Hole_M3_Grounded MH1
+U 1 1 5FC1D4FD
+P 9100 10200
+F 0 "MH1" H 9228 10188 50  0000 L CNN
+F 1 "Mounting_Hole_M3_Grounded" H 9228 10097 50  0000 L CNN
+F 2 "Mounting_Holes:Mounting_Hole_M3_Grounded" H 9150 10000 50  0001 C CNN
+F 3 "" H 9150 10000 50  0001 C CNN
+	1    9100 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5FC1D507
+P 9100 10500
+F 0 "#PWR0121" H 9100 10600 30  0001 C CNN
+F 1 "GND" H 9100 10400 30  0001 C CNN
+F 2 "" H 9100 10500 60  0000 C CNN
+F 3 "" H 9100 10500 60  0000 C CNN
+	1    9100 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 10400 9100 10500
 $EndSCHEMATC
