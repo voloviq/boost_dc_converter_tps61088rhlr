@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mw/hardware_projects/boost_dc_converter_tps61088rhlr/Boost_DC_Converter_TPS61088RHLR.sch</source>
+    <date>czw, 10 gru 2020, 20:56:21</date>
+    <tool>Eeschema 5.1.8-db9833491~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Boost DC Converter TPS61088RHLR Development Board</title>
+        <company>Embedded System Labs</company>
+        <rev>V1.0</rev>
+        <date>2020-11-26</date>
+        <source>Boost_DC_Converter_TPS61088RHLR.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TPS61088RHLR</value>
+      <footprint>Switching:TPS61088RHLR</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61088</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LSCS Part # (optional)">C87357</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TPS61088RHLR</field>
+        <field name="Package">VQFN-20</field>
+        <field name="Price@1000pcs">7</field>
+        <field name="Price@1pc">13,95</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">595-TPS61088RHLR</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS61088RHLR?qs=MiqG6Kq1qKNjgpnslrNKug%3D%3D</field>
+      </fields>
+      <libsource lib="Switching_Regulators" part="TPS61088RHLR" description="Boost Converter 10A Fully-Integrated Synchronous"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC00B81</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF/50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100nF_0603" description="100nF / 50V SMD Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC00986</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>255k</value>
+      <footprint>Resistor_Smd_0603:255k_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/a839d5a6a074011d43019559d4a1a0c7/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C23354</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer Part Number">ERA3AEB2553V</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,15157</field>
+        <field name="Price@10pc">0,37065</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">ERA3AEB2553V</field>
+        <field name="URL">https://www.tme.eu/pl/details/era3aeb2553v/rezystory-precyzyjne-smd-0603/panasonic/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="255k" description="255kΩ 0,1W ±0.1% -55...155°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC03F3A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF/6.3V</value>
+      <footprint>Capacitors_Smd_0603:2_2uF_0603</footprint>
+      <datasheet>C:/Wiktor/KiCad/KiCadWolowik/Schematic/Capacitors/Smd_0603/Components_Documentation/2_2uF_0603.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="2_2uF_0603" description="MLCC SMD 0603 2.2uF 10V X5R 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC0562E</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>1.2uH-12.9A</value>
+      <footprint>Inductors:CDMC8D28NP-1R2MC</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/390/CDMC8D28-837924.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">Sumida</field>
+        <field name="Manufacturer Part Number">CDMC8D28NP-1R2MC</field>
+        <field name="Package">9,5x8,7x3mm</field>
+        <field name="Price@1000pcs">2,6</field>
+        <field name="Price@1pc">6,47</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">851-CDMC8D28NP-1R2MC</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Murata-Electronics/DFE252012P-1R0M=P2?qs=KuGPmAKtFKUHla8Odvjl9w%3D%3D</field>
+      </fields>
+      <libsource lib="Inductors" part="1.2uH-12.9A" description="1.2UH 12.9A 7mOhms −40°C to +125°C Fixed Inductors SMD Power Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC0AE80</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF/50V</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100nF_0603" description="100nF / 50V SMD Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC0D3B0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF/35V</value>
+      <footprint>Capacitors_Smd_1210:10uF_35V_X7R_1210</footprint>
+      <datasheet>Capacitors/Smd_1210/General Multilayer Ceramic Capacitors.pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL32B106KLULNNE</field>
+        <field name="Package">1210</field>
+        <field name="Price@1000pcs">0,63386</field>
+        <field name="Price@1pc">1,35100</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL32B106KLULNNE</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl32b106klulnne/kondensatory-mlcc-smd-1210/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd1210" part="10uF_35V_X7R_1210" description="SMD Capacitor 10uF 35V ±15% -55 ~ +125℃"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC0FB5D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_Smd_0603:100k_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/fa390a0a31e891a154d3713216995c6e/HighPowerHP.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C269699</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">HP03W5J0104T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01696</field>
+        <field name="Price@50pcs">0,07415</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">HP03-100K5%</field>
+        <field name="URL">https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="100k_0603" description="SMD Resistor 100kOhm 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC1184A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>47nF/50V</value>
+      <footprint>Capacitors_Smd_0603:47nF_0603</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C313102</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Manufacturer Part Number">0603B473K500CT</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02748</field>
+        <field name="Price@100pcs">0,06502</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">0603B473K500CT</field>
+        <field name="URL">https://www.tme.eu/pl/details/0603b473k500ct/kondensatory-mlcc-smd-0603/walsin/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="47nF_0603" description="47nF / 50V SMD Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC13BBE</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>360k</value>
+      <footprint>Resistor_Smd_0603:360k_0603</footprint>
+      <datasheet>/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="360k_0603" description="SMD Resistor 360kOhm 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC19621</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>56k</value>
+      <footprint>Resistor_Smd_0603:56k_0603</footprint>
+      <datasheet>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF5602T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01269</field>
+        <field name="Price@1pc">0,04693</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-56K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-56k-1%2525/rezystory-smd-0603/royal-ohm/0603saf5602t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="56k_0603" description="SMD Resistor 56kOhm 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC1A94C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_Smd_0603:100k_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/fa390a0a31e891a154d3713216995c6e/HighPowerHP.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C269699</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">HP03W5J0104T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01696</field>
+        <field name="Price@50pcs">0,07415</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">HP03-100K5%</field>
+        <field name="URL">https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="100k_0603" description="SMD Resistor 100kOhm 0.25W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC1E264</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2n2F/50V</value>
+      <footprint>Capacitors_Smd_0603:2.2nF_0603</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM1885C1H222JA01D</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,024</field>
+        <field name="Price@1pc">0,13</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM1885C1H222JA01</field>
+        <field name="URL">https://pl.mouser.com/Search/Refine?Keyword=81-GRM1885C1H222JA01</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="2n2F_0603" description="2.2nF / 50V SMD Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC2090E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>220pF/50V</value>
+      <footprint>Capacitors_Smd_0603:220pF_0603</footprint>
+      <datasheet>https://pl.mouser.com/datasheet/2/40/C0GNP0-Dielectric-951274.pdf</datasheet>
+      <fields>
+        <field name="Developer">IW</field>
+        <field name="LCSC Part # (optional)">C431002</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part Number">06035A221JAT2A </field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,10</field>
+        <field name="Price@100pcs">0,168</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">581-06035A221J </field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/AVX/06035A221JAT2A?qs=sGAEpiMZZMs0AnBnWHyRQE2IRmxFPR1eltIuQ0lzIwI%3D</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="220pF_0603" description="220pF / 50V SMD Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC27FDD</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22uF/35V</value>
+      <footprint>Smd_Tantal:22uF_35V_Size_D</footprint>
+      <datasheet>https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C126947</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Manufacturer Part Number">293D226X9035D2TE3</field>
+        <field name="Package">Size_D</field>
+        <field name="Price@1000pcs">1,65625</field>
+        <field name="Price@1pc">3,31250</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">293D226X9035D2TE3</field>
+        <field name="URL">https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd_Tantal" part="22uF35V" description="Tantal Capacitor 22uF / 35V Vishay"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC2EAEE</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>22uF/35V</value>
+      <footprint>Smd_Tantal:22uF_35V_Size_D</footprint>
+      <datasheet>https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C126947</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Manufacturer Part Number">293D226X9035D2TE3</field>
+        <field name="Package">Size_D</field>
+        <field name="Price@1000pcs">1,65625</field>
+        <field name="Price@1pc">3,31250</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">293D226X9035D2TE3</field>
+        <field name="URL">https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd_Tantal" part="22uF35V" description="Tantal Capacitor 22uF / 35V Vishay"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC2FE78</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>22uF/35V</value>
+      <footprint>Smd_Tantal:22uF_35V_Size_D</footprint>
+      <datasheet>https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part # (optional)">C126947</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Manufacturer Part Number">293D226X9035D2TE3</field>
+        <field name="Package">Size_D</field>
+        <field name="Price@1000pcs">1,65625</field>
+        <field name="Price@1pc">3,31250</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">293D226X9035D2TE3</field>
+        <field name="URL">https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd_Tantal" part="22uF35V" description="Tantal Capacitor 22uF / 35V Vishay"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC314BE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF/35V</value>
+      <footprint>Smd_Tantal:1uF_35V_B_Tantal</footprint>
+      <datasheet>Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf</datasheet>
+      <libsource lib="Capacitors_Smd_Tantal" part="1uF_35V_SMD_Tantal" description="Tantal Capacitor 1uF / 35V AVX"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC3B2D2</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>DG301-5.0-02P-12-00A(H)</value>
+      <footprint>Discrete_Connectors:DG301-5.0-02P-12-00A(H)</footprint>
+      <datasheet>Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">	DEGSON ELECTRONICS</field>
+        <field name="Manufacturer Part Number">DG301-5.0-02P-12-00A(H)</field>
+        <field name="Price@1000pcs">0,4119</field>
+        <field name="Price@1pc">0,6176</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">DG301-5.0-2P12</field>
+        <field name="URL">https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/</field>
+      </fields>
+      <libsource lib="Discrete_Connectors" part="DG301-5.0-02P-12-00A(H)" description="2-Pin 5.0mm 22-14AWG Wire Range Screw Terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC467AF</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>DG301-5.0-02P-12-00A(H)</value>
+      <footprint>Discrete_Connectors:DG301-5.0-02P-12-00A(H)</footprint>
+      <datasheet>Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">	DEGSON ELECTRONICS</field>
+        <field name="Manufacturer Part Number">DG301-5.0-02P-12-00A(H)</field>
+        <field name="Price@1000pcs">0,4119</field>
+        <field name="Price@1pc">0,6176</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">DG301-5.0-2P12</field>
+        <field name="URL">https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/</field>
+      </fields>
+      <libsource lib="Discrete_Connectors" part="DG301-5.0-02P-12-00A(H)" description="2-Pin 5.0mm 22-14AWG Wire Range Screw Terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4CA21</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>DG301-5.0-02P-12-00A(H)</value>
+      <footprint>Discrete_Connectors:DG301-5.0-02P-12-00A(H)</footprint>
+      <datasheet>Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf</datasheet>
+      <fields>
+        <field name="Developer">WP</field>
+        <field name="Manufacturer">	DEGSON ELECTRONICS</field>
+        <field name="Manufacturer Part Number">DG301-5.0-02P-12-00A(H)</field>
+        <field name="Price@1000pcs">0,4119</field>
+        <field name="Price@1pc">0,6176</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">DG301-5.0-2P12</field>
+        <field name="URL">https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/</field>
+      </fields>
+      <libsource lib="Discrete_Connectors" part="DG301-5.0-02P-12-00A(H)" description="2-Pin 5.0mm 22-14AWG Wire Range Screw Terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC55FAD</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>Mounting_Hole_M3_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M3_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M3_Grounded" description="Mounting Hole M3 3.2mm Hole Size"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC178DA</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>Mounting_Hole_M3_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M3_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M3_Grounded" description="Mounting Hole M3 3.2mm Hole Size"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC1A89E</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>Mounting_Hole_M3_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M3_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M3_Grounded" description="Mounting Hole M3 3.2mm Hole Size"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC1D214</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>Mounting_Hole_M3_Grounded</value>
+      <footprint>Mounting_Holes:Mounting_Hole_M3_Grounded</footprint>
+      <libsource lib="Mounting_Holes" part="Mounting_Hole_M3_Grounded" description="Mounting Hole M3 3.2mm Hole Size"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC1D4FD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Capacitors_Smd0603" part="100nF_0603">
+      <description>100nF / 50V SMD Capacitor</description>
+      <docs>Capacitors/Smd_0603/Components_Documentation/KEM_C1005_Y5V_SMD.pdf</docs>
+      <footprints>
+        <fp>100nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100nF_0603</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="220pF_0603">
+      <description>220pF / 50V SMD Capacitor</description>
+      <docs>https://pl.mouser.com/datasheet/2/40/C0GNP0-Dielectric-951274.pdf</docs>
+      <footprints>
+        <fp>220pF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">220pF_0603</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part Number">06035A221JAT2A </field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">581-06035A221J </field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/AVX/06035A221JAT2A?qs=sGAEpiMZZMs0AnBnWHyRQE2IRmxFPR1eltIuQ0lzIwI%3D</field>
+        <field name="Price@100pcs">0,168</field>
+        <field name="Price@1000pcs">0,10</field>
+        <field name="Developer">IW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C431002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="2_2uF_0603">
+      <description>MLCC SMD 0603 2.2uF 10V X5R 10%</description>
+      <docs>C:/Wiktor/KiCad/KiCadWolowik/Schematic/Capacitors/Smd_0603/Components_Documentation/2_2uF_0603.pdf</docs>
+      <footprints>
+        <fp>2_2uF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2_2uF_0603</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="2n2F_0603">
+      <description>2.2nF / 50V SMD Capacitor</description>
+      <docs>https://pl.mouser.com/datasheet/2/281/murata_03052018_GRM_Series_1-1310166.pdf</docs>
+      <footprints>
+        <fp>2.2nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">2n2F_0603</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM1885C1H222JA01D</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM1885C1H222JA01</field>
+        <field name="URL">https://pl.mouser.com/Search/Refine?Keyword=81-GRM1885C1H222JA01</field>
+        <field name="Price@1pc">0,13</field>
+        <field name="Price@1000pcs">0,024</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="47nF_0603">
+      <description>47nF / 50V SMD Capacitor</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <footprints>
+        <fp>47nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47nF_0603</field>
+        <field name="Manufacturer">WALSIN</field>
+        <field name="Manufacturer Part Number">0603B473K500CT</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">0603B473K500CT</field>
+        <field name="URL">https://www.tme.eu/pl/details/0603b473k500ct/kondensatory-mlcc-smd-0603/walsin/</field>
+        <field name="Price@100pcs">0,06502</field>
+        <field name="Price@1000pcs">0,02748</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C313102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd1210" part="10uF_35V_X7R_1210">
+      <description>SMD Capacitor 10uF 35V ±15% -55 ~ +125℃</description>
+      <docs>Capacitors/Smd_1210/General Multilayer Ceramic Capacitors.pdf</docs>
+      <footprints>
+        <fp>10uF_35V_X7R_1210</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF_35V_X7R_1210</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL32B106KLULNNE</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL32B106KLULNNE</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl32b106klulnne/kondensatory-mlcc-smd-1210/samsung/</field>
+        <field name="Price@1pc">1,35100</field>
+        <field name="Price@1000pcs">0,63386</field>
+        <field name="Developer">WP</field>
+        <field name="Package">1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd_Tantal" part="1uF_35V_SMD_Tantal">
+      <description>Tantal Capacitor 1uF / 35V AVX</description>
+      <docs>Smd_Tantal/Components_Documentation/AVX_Tantal_Capacitors.pdf</docs>
+      <footprints>
+        <fp>1uF_35V_B_Tantal</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1uF_35V_SMD_Tantal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd_Tantal" part="22uF35V">
+      <description>Tantal Capacitor 22uF / 35V Vishay</description>
+      <docs>https://www.tme.eu/Document/a5d90d85079967994fb49c0e8f8ad6e9/293d.pdf</docs>
+      <footprints>
+        <fp>22uF_35V_Size_D</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22uF35V</field>
+        <field name="Manufacturer">VISHAY</field>
+        <field name="Manufacturer Part Number">293D226X9035D2TE3</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">293D226X9035D2TE3</field>
+        <field name="URL">https://www.tme.eu/pl/details/293d226x9035d2te3/kondensatory-tantalowe-smd/vishay/</field>
+        <field name="Price@1pc">3,31250</field>
+        <field name="Price@1000pcs">1,65625</field>
+        <field name="Developer">MW</field>
+        <field name="Package">Size_D</field>
+        <field name="LCSC Part # (optional)">C126947</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Discrete_Connectors" part="DG301-5.0-02P-12-00A(H)">
+      <description>2-Pin 5.0mm 22-14AWG Wire Range Screw Terminal</description>
+      <docs>Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf</docs>
+      <footprints>
+        <fp>DG301-5.0-02P-12-00A(H)</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">DG301-5.0-02P-12-00A(H)</field>
+        <field name="Manufacturer">	DEGSON ELECTRONICS</field>
+        <field name="Manufacturer Part Number">DG301-5.0-02P-12-00A(H)</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">DG301-5.0-2P12</field>
+        <field name="URL">https://www.tme.eu/pl/details/dg301-5.0-2p12/listwy-zaciskowe-do-druku/degson-electronics/dg301-5-0-02p-12-00a-h/</field>
+        <field name="Price@1pc">0,6176</field>
+        <field name="Price@1000pcs">0,4119</field>
+        <field name="Developer">WP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductors" part="1.2uH-12.9A">
+      <description>1.2UH 12.9A 7mOhms −40°C to +125°C Fixed Inductors SMD Power Inductor</description>
+      <docs>https://pl.mouser.com/datasheet/2/390/CDMC8D28-837924.pdf</docs>
+      <footprints>
+        <fp>CDMC8D28NP-1R2MC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">1.2uH-12.9A</field>
+        <field name="Manufacturer">Sumida</field>
+        <field name="Manufacturer Part Number">CDMC8D28NP-1R2MC</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">851-CDMC8D28NP-1R2MC</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Murata-Electronics/DFE252012P-1R0M=P2?qs=KuGPmAKtFKUHla8Odvjl9w%3D%3D</field>
+        <field name="Price@1pc">6,47</field>
+        <field name="Price@1000pcs">2,6</field>
+        <field name="Developer">MW</field>
+        <field name="Package">9,5x8,7x3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mounting_Holes" part="Mounting_Hole_M3_Grounded">
+      <description>Mounting Hole M3 3.2mm Hole Size</description>
+      <footprints>
+        <fp>Mounting_Hole_M3_Grounded</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">Mounting_Hole_M3_Grounded</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="100k_0603">
+      <description>SMD Resistor 100kOhm 0.25W</description>
+      <docs>https://www.tme.eu/Document/fa390a0a31e891a154d3713216995c6e/HighPowerHP.pdf</docs>
+      <footprints>
+        <fp>100k_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100k_0603</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">HP03W5J0104T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">HP03-100K5%</field>
+        <field name="URL">https://www.tme.eu/pl/details/hp03-100k5%25/rezystory-smd-0603/royal-ohm/hp03w5j0104t5e/</field>
+        <field name="Price@50pcs">0,07415</field>
+        <field name="Price@1000pcs">0,01696</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C269699</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="255k">
+      <description>255kΩ 0,1W ±0.1% -55...155°C</description>
+      <docs>https://www.tme.eu/Document/a839d5a6a074011d43019559d4a1a0c7/AOA0000C307.pdf</docs>
+      <footprints>
+        <fp>255k_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">255k</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Manufacturer Part Number">ERA3AEB2553V</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">ERA3AEB2553V</field>
+        <field name="URL">https://www.tme.eu/pl/details/era3aeb2553v/rezystory-precyzyjne-smd-0603/panasonic/</field>
+        <field name="Price@10pc">0,37065</field>
+        <field name="Price@1000pcs">0,15157</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part # (optional)">C23354</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="360k_0603">
+      <description>SMD Resistor 360kOhm 0.25W</description>
+      <docs>/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</docs>
+      <footprints>
+        <fp>360k_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">360k_0603</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="56k_0603">
+      <description>SMD Resistor 56kOhm 0.25W</description>
+      <docs>Resistors/Smd_0603/Components_Documentation/Vishay_Resistors_SM0603.pdf</docs>
+      <footprints>
+        <fp>56k_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">56k_0603</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF5602T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">	SMD0603-56K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-56k-1%2525/rezystory-smd-0603/royal-ohm/0603saf5602t5e/</field>
+        <field name="Price@1pc">0,04693</field>
+        <field name="Price@1000pcs">0,01269</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switching_Regulators" part="TPS61088RHLR">
+      <description>Boost Converter 10A Fully-Integrated Synchronous</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61088</docs>
+      <footprints>
+        <fp>TPS61088RHLR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61088RHLR</field>
+        <field name="Footprint">RHL0020A</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">TPS61088RHLR</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">595-TPS61088RHLR</field>
+        <field name="URL">https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS61088RHLR?qs=MiqG6Kq1qKNjgpnslrNKug%3D%3D</field>
+        <field name="Price@1pc">13,95</field>
+        <field name="Price@1000pcs">7</field>
+        <field name="Developer">MW</field>
+        <field name="Package">VQFN-20</field>
+        <field name="LSCS Part # (optional)">C87357</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="FSW" type="input"/>
+        <pin num="4" name="SW" type="power_in"/>
+        <pin num="5" name="SW" type="power_in"/>
+        <pin num="6" name="SW" type="power_in"/>
+        <pin num="7" name="SW" type="power_in"/>
+        <pin num="8" name="BOOT" type="power_in"/>
+        <pin num="9" name="VIN" type="power_in"/>
+        <pin num="10" name="SS" type="input"/>
+        <pin num="11" name="NC" type="unspc"/>
+        <pin num="12" name="NC" type="unspc"/>
+        <pin num="13" name="MODE" type="input"/>
+        <pin num="14" name="VOUT" type="power_in"/>
+        <pin num="15" name="VOUT" type="power_in"/>
+        <pin num="16" name="VOUT" type="power_in"/>
+        <pin num="17" name="FB" type="input"/>
+        <pin num="18" name="COMP" type="output"/>
+        <pin num="19" name="ILIM" type="input"/>
+        <pin num="20" name="AGND" type="power_in"/>
+        <pin num="21" name="PGND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Capacitors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic//Capacitors/Smd_0603/Capacitors_Smd0603.lib</uri>
+    </library>
+    <library logical="Capacitors_Smd1210">
+      <uri>/home/mw/kicad_library/Schematic//Capacitors/Smd_1210/Capacitors_Smd1210.lib</uri>
+    </library>
+    <library logical="Capacitors_Smd_Tantal">
+      <uri>/home/mw/kicad_library/Schematic//Capacitors/Smd_Tantal/Capacitors_Smd_Tantal.lib</uri>
+    </library>
+    <library logical="Discrete_Connectors">
+      <uri>/home/mw/kicad_library/Schematic//Connectors/Discrete_Connectors/Discrete_Connectors.lib</uri>
+    </library>
+    <library logical="Inductors">
+      <uri>/home/mw/kicad_library/Schematic//Inductors/Inductors.lib</uri>
+    </library>
+    <library logical="Mounting_Holes">
+      <uri>/home/mw/kicad_library/Schematic//Mounting_Holes/Mounting_Holes.lib</uri>
+    </library>
+    <library logical="Resistors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic//Resistors/Smd_0603/Resistors_Smd0603.lib</uri>
+    </library>
+    <library logical="Switching_Regulators">
+      <uri>/home/mw/kicad_library/Schematic//Dc_Dc_Regulators/Switching/Switching_Regulators.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C4-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="P1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="MH4" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="21"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R4-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="11" name="Net-(C10-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="12" name="Net-(C7-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C7-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+  </nets>
+</export>
